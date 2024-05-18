@@ -1,0 +1,76 @@
+/* khusus login dan registrasi */
+
+* {
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 196, 196);
+    background: url('../img/doodles.png');
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffff;
+    border: 2px solid rgb(96, 96, 254);
+}
+
+.login h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 425px) {
+    .login {
+        width: 250px;
+        height: min-content;
+        padding: 20px;
+        border-radius: 12px;
+        background-color: #ffff;
+    }
+    
+    .login h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .login .text2 {
+        font-size: 22px;
+    }
+    
+    .login form {
+        font-size: 17px;
+    }
+    
+    .login form .form-group {
+        margin-bottom: 12px;
+    }
+    
+    .login form input[type="submit"] {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+
